@@ -1,0 +1,14 @@
+GET http://127.0.0.1:8080/
+Content-Type: application/json
+id : 3
+
+###
+
+GET http://127.0.0.1:8080/dashboard
+
+###
+
+GET http://127.0.0.1:8080/admin
+Content-Type: application/json
+id : 1
+role: ADMIN
